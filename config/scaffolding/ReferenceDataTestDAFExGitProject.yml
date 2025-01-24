@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
   gitBranch: main
+services:
+- serviceName: project.referencedatatestdafexgit.integrations:Test1Refdata
+  packages:
+  - name: ReferenceDataTestDAFExGitProject
+    version: "1.0"
+- serviceName: project.referencedatatestdafexgit.referencedata:refData1txt
+  packages:
+  - name: ReferenceDataTestDAFExGitProject
+    version: "1.0"
