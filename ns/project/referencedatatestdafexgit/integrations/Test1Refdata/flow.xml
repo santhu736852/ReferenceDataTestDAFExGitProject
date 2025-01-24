@@ -8,4 +8,8 @@
 <INVOKE NAME="Reference Data" SERVICE="project.referencedatatestdafexgit.referencedata:refData1txt">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="Reference Data" SERVICE="project.referencedatatestdafexgit.referencedata:refData2csv">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
