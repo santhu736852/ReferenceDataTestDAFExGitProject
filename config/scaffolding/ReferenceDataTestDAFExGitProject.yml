@@ -8,11 +8,23 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
+- serviceName: project.referencedatatestdafexgit.integrations:Test1
+  packages:
+  - name: ReferenceDataTestDAFExGitProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2035
 - serviceName: project.referencedatatestdafexgit.integrations:Test1Refdata
   packages:
   - name: ReferenceDataTestDAFExGitProject
     version: "1.0"
 - serviceName: project.referencedatatestdafexgit.referencedata:refData1txt
+  packages:
+  - name: ReferenceDataTestDAFExGitProject
+    version: "1.0"
+- serviceName: project.referencedatatestdafexgit.referencedata:refData2csv
   packages:
   - name: ReferenceDataTestDAFExGitProject
     version: "1.0"
